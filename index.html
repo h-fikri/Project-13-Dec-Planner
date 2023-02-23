@@ -12,7 +12,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
     <link rel="shortcut icon" href="#" />
     <title>Work Day Scheduler</title>
   </head>
@@ -23,15 +23,61 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
+
     <div class="container">
       <!-- Timeblocks go here -->
-      <div id="hour-1" class="row time-block border border-primary text-center">
-        <div class="hour col-1">1AM</div>
+      <div id="hour-9" class="row time-block">
+        <div class="hour col-1">9AM</div>
         <textarea class="description col"></textarea>
-        <button class="btn saveButton col-1">
-          <i class="fa-regular fa-calendar-check"></i>
+        <button class="saveBtn col-1">
+          <i class="far fa-save"></i>
         </button>
       </div>
+
+      <div id="hour-10" class="row time-block">
+        <div class="hour col-1">10AM</div>
+        <textarea class="description col"></textarea>
+        <button class="saveBtn col-1">
+          <i class="far fa-save"></i>
+        </button>
+      </div>
+      <div id="hour-11" class="row time-block">
+        <div class="hour col-1">11AM</div>
+        <textarea class="description col"></textarea>
+        <button class="saveBtn col-1">
+          <i class="far fa-save"></i>
+        </button>
+      </div>
+      <div id="hour-12" class="row time-block">
+        <div class="hour col-1">12PM</div>
+        <textarea class="description col"></textarea>
+        <button class="saveBtn col-1">
+          <i class="far fa-save"></i>
+        </button>
+      </div>
+      <div id="hour-13" class="row time-block">
+        <div class="hour col-1">13PM</div>
+        <textarea class="description col"></textarea>
+        <button class="saveBtn col-1">
+          <i class="far fa-save"></i>
+        </button>
+      </div>
+      <div id="hour-14" class="row time-block">
+        <div class="hour col-1">14PM</div>
+        <textarea class="description col"></textarea>
+        <button class="saveBtn col-1">
+          <i class="far fa-save"></i>
+        </button>
+      </div>
+      <div id="hour-15" class="row time-block">
+        <div class="hour col-1">15PM</div>
+        <textarea class="description col"></textarea>
+        <button class="saveBtn col-1">
+          <i class="far fa-save"></i>
+        </button>
+      </div>
+
+      <!-- Repeat for all business hours -->
     </div>
 
     <script

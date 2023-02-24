@@ -24,6 +24,10 @@ You'll need to use the [Moment.js](https://momentjs.com/) library to work with d
 
 ## Challenges
 
+Jquery helps me so much instead of writing a lot of code. The principle of DRY really applies in here. However, reading through MomentJS documentation is a bit challenging. I have to read it several times to understand the concept. I also have to re-read the documentation of Jquery to understand how to use them.
+
 ## Screenshots
 
-Demo Link:
+![Screenshot](./assets/Screenshot.jpg)
+
+![Demonstration](./assets/Demo_Planner.gif)
